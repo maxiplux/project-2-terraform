@@ -246,8 +246,8 @@ resource "aws_launch_configuration" "weclouddata" {
   image_id      = "ami-0c7217cdde317cfec"
   instance_type = "t2.micro"
 
-
-  user_data       = <<-EOF
+  
+  user_data = <<-EOF
                     #!/bin/bash
                     echo "export DB_HOST=${aws_db_instance.postgres.address}" >> /etc/environment
                     sudo apt update -y
