@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ## General overview of this settings.
 ### Backend Project
 
@@ -66,5 +64,3 @@ The script is a comprehensive setup for deploying a load-balanced, high-availabi
 -   Run `terraform apply` to apply the configuration and create the resources in AWS.
 
 ### Evidences
-
->>>>>>> e9a9eb575258b330dbecae6de43056c8af2fe9f6
