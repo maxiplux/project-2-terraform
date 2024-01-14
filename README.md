@@ -62,3 +62,6 @@ The script is a comprehensive setup for deploying a load-balanced, high-availabi
 -   Run `terraform init` to initialize Terraform and download the required providers.
 -   Run `terraform plan` to see the execution plan.
 -   Run `terraform apply` to apply the configuration and create the resources in AWS.
+
+### Evidences
+
