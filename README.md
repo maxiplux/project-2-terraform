@@ -1,4 +1,11 @@
 ## General overview of this settings.
+### Backend Project
+
+-   **FAST API**: Configures the AWS provider to interact with AWS services.
+-   ***Summary**: The goal of this project is to be the backend API that allow to validate how to deploy a services with HA and fault tolereance.
+-   **Code**: https://github.com/maxiplux/api-python-project-devops-fast-api.
+
+
 ### Providers Configuration
 
 -   **AWS Provider**: Configures the AWS provider to interact with AWS services.
