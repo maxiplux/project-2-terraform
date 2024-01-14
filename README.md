@@ -50,7 +50,7 @@
 The script is a comprehensive setup for deploying a load-balanced, high-availability application in AWS. The instances are configured with Apache and can be accessed through the load balancer. The security groups ensure controlled access to the instances.
 
 ### How to execute this project.
-
+-   setup your AWS CLI and terraform will read your settings to target this infraestructure
 -   Run `terraform init` to initialize Terraform and download the required providers.
 -   Run `terraform plan` to see the execution plan.
 -   Run `terraform apply` to apply the configuration and create the resources in AWS.
