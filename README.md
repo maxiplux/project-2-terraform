@@ -64,3 +64,24 @@ The script is a comprehensive setup for deploying a load-balanced, high-availabi
 -   Run `terraform apply` to apply the configuration and create the resources in AWS.
 
 ### Evidences
+command execution
+![Execute apply command](execute-apply.png)
+The out put for this execution. In this step you should  wait at least 30 minutes until the automatition scripts inside of each EC2 instance is done.
+![Output](output.png)
+The Final output should be test, thanks to the LB. The LB should be able to reach the FAST API app running behind the load balancer.
+![Output](loadbalancer.png)
+In addition we can see the API in action and this is working with RDS
+![Output](test1.png)
+![Output](test2.png)
+![Output](test3.png)
+In parallel we can find some items in our infraestructure
+![Output](ec2.png)
+![Output](lb.png)
+![Output](tg.png)
+![Output](autog.png)
+
+
+
+
+
+
